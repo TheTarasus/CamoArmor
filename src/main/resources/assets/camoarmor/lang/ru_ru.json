@@ -1,0 +1,29 @@
+{
+  "item.camoarmor.camo_diamond_boots": "Камуфляжные алмазные ботинки",
+  "item.camoarmor.camo_diamond_leggings": "Камуфляжные алмазные поножи",
+  "item.camoarmor.camo_diamond_chestplate": "Камуфляжная алмазная кираса",
+  "item.camoarmor.camo_diamond_helmet": "Камуфляжный алмазный шлем",
+
+
+  "item.camoarmor.camo_iron_boots": "Камуфляжные железные ботинки",
+  "item.camoarmor.camo_iron_leggings": "Камуфляжные железные поножи",
+  "item.camoarmor.camo_iron_chestplate": "Камуфляжная железная кираса",
+  "item.camoarmor.camo_iron_helmet": "Камуфляжный железный шлем",
+
+  "item.camoarmor.camo_golden_boots": "Камуфляжные золотые ботинки",
+  "item.camoarmor.camo_golden_leggings": "Камуфляжные золотые поножи",
+  "item.camoarmor.camo_golden_chestplate": "Камуфляжный золотой нагрудник",
+  "item.camoarmor.camo_golden_helmet": "Камуфляжный золотой шлем",
+
+  "item.camoarmor.camo_chainmail_boots": "Камуфляжные кольчужные сапоги",
+  "item.camoarmor.camo_chainmail_leggings": "Камуфляжные кольчужные поножи",
+  "item.camoarmor.camo_chainmail_chestplate": "Камуфляжная кольчуга",
+  "item.camoarmor.camo_chainmail_helmet": "Камуфляжный койф",
+
+  "item.camoarmor.camo_netherite_boots": "Камуфляжные незеритовые ботинки",
+  "item.camoarmor.camo_netherite_leggings": "Камуфляжные незеритовые поножи",
+  "item.camoarmor.camo_netherite_chestplate": "Камуфляжный незеритовый нагрудник",
+  "item.camoarmor.camo_netherite_helmet": "Камуфляжный незеритовый шлем",
+
+  "item.camoarmor.camouflage": "Камуфляж"
+}

@@ -22,19 +22,4 @@ public class CamouflageArmor extends DyeableArmorItem {
     public boolean hasGlint(ItemStack stack){
         return false;
     }
-
-    @Override
-    public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context){
-        super.appendTooltip(stack, world, tooltip, context);
-
-        int color = this.getColor(stack);
-        String set = Integer.toHexString(color);
-        char[] seq = set.toCharArray();
-        set = "";
-        for (char ch : seq){
-            set += "§" + ch;
-        }
-        set = "Color: " + set + "■";
-        tooltip.add(Text.of(set));
-    }
 }
