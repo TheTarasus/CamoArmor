@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:sand"
+        },
+        {
+            "item": "minecraft:sand"
+        },
+        {
+            "item": "minecraft:grass_block"
+        },
+        {
+            "item": "minecraft:grass_block"
+        }
+    ],
+    "result": {
+        "item": "camoarmor:camouflage",
+        "count": 1
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:diamond_boots"
+    },
+    "addition": {
+        "item": "camoarmor:camouflage"
+    },
+    "result": {
+        "item": "camoarmor:camo_diamond_boots"
+    }
+}

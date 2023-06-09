@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:netherite_boots"
+    },
+    "addition": {
+        "item": "camoarmor:camouflage"
+    },
+    "result": {
+        "item": "camoarmor:camo_netherite_boots"
+    }
+}

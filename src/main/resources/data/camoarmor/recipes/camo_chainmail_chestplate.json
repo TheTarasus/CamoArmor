@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:chainmail_chestplate"
+    },
+    "addition": {
+        "item": "camoarmor:camouflage"
+    },
+    "result": {
+        "item": "camoarmor:camo_chainmail_chestplate"
+    }
+}
