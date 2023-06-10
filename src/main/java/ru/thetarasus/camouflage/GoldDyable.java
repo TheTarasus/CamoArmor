@@ -21,6 +21,6 @@ public class GoldDyable extends CamouflageArmor {
     @Override
     public int getColor(ItemStack stack) {
         CompoundTag compoundTag = stack.getSubTag("display");
-        return compoundTag != null && compoundTag.contains("color", 99) ? compoundTag.getInt("color") : 0xF4CA00;
+        return compoundTag != null && compoundTag.contains("color", 99) ? compoundTag.getInt("color") : 0xFFFF00;
     }
 }
