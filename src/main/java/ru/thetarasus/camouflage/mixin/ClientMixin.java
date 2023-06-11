@@ -34,7 +34,7 @@ public abstract class ClientMixin<T extends Entity> {
 
     @Shadow @Final protected EntityRenderDispatcher dispatcher;
 
-    @Shadow public abstract TextRenderer getFontRenderer();
+    @Shadow public abstract TextRenderer getTextRenderer();
 
     /**
      * @author
@@ -53,7 +53,7 @@ public abstract class ClientMixin<T extends Entity> {
             Matrix4f matrix4f = matrices.peek().getModel();
             float g = MinecraftClient.getInstance().options.getTextBackgroundOpacity(0.25F);
             int j = (int)(g * 255.0F) << 24;
-            TextRenderer textRenderer = this.getFontRenderer();
+            TextRenderer textRenderer = this.getTextRenderer();
             float h = (float)(-textRenderer.getWidth((StringVisitable)text) / 2);
             textRenderer.draw((Text)text, h, (float)i, -1, false, matrix4f, vertexConsumers, false, 0, light);
 
