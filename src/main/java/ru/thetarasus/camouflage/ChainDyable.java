@@ -4,7 +4,7 @@ import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.DyeableArmorItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.nbt.CompoundTag;
+import net.minecraft.nbt.NbtCompound;
 
 public class ChainDyable extends CamouflageArmor {
 
@@ -16,7 +16,7 @@ public class ChainDyable extends CamouflageArmor {
 
     @Override
     public int getColor(ItemStack stack) {
-        CompoundTag compoundTag = stack.getSubTag("display");
+        NbtCompound compoundTag = stack.getSubNbt("display");
         return compoundTag != null && compoundTag.contains("color", 99) ? compoundTag.getInt("color") : 0xF9FFFE;
     }
 }
